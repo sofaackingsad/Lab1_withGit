@@ -1,4 +1,9 @@
 #12
 import random
-generationList = [random.randint(5, 1100) for i in range(21)]
-print(generationList)
+
+def generationListwithFunction(countElements):
+    generationList = [random.randint(5, 1100) for i in range(countElements)]
+    print(generationList)
+generationListwithFunction(5)
+
+
